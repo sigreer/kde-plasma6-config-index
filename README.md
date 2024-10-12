@@ -1,3 +1,6 @@
+### Work in progress
+Fork of shalva97/kde-configuration-files which I found to be a really useful resource for KDE Plasma 5. The intention with this fork is to update the resources to be relevant for Plasma6 and to add nuggets of wisdom along the way.
+
 ### Some useful stuff
   * [hide title bar when windows are maximized](https://github.com/shalva97/kde-configuration-files/blob/b011186249deb8b3c268d5dab9cb0f84739127b8/setupKDE.fish#L4)
   * [Delete all (i hope) config files](https://github.com/shalva97/kde-configuration-files/blob/master/scripts/delete-kde-configuration-files.fish)
