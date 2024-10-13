@@ -1,18 +1,16 @@
 ### Work in progress
 Fork of shalva97/kde-configuration-files which I found to be a really useful resource for KDE Plasma 5. The intention with this fork is to update the resources to be relevant for Plasma6 and to add nuggets of wisdom along the way.
 
-### Some useful stuff
-  * [hide title bar when windows are maximized](https://github.com/shalva97/kde-configuration-files/blob/b011186249deb8b3c268d5dab9cb0f84739127b8/setupKDE.fish#L4)
-  * [Delete all (i hope) config files](https://github.com/shalva97/kde-configuration-files/blob/master/scripts/delete-kde-configuration-files.fish)
-  * [kcmshell5 and plasmawindowed](https://github.com/shalva97/kde-configuration-files/blob/master/kcmshell5%20and%20plasmawindowed.md)
-  * [dbus events](https://github.com/shalva97/kde-configuration-files/blob/master/qdbus_events.md)
-  * [convert config entries to kwrite commands](https://gist.github.com/shalva97/a705590f2c0e309374cccc7f6bd667cb)
-  * [KDE configuration backup script](https://github.com/Prayag2/konsave)
+**Resources that have been validated as correct for Plasma 6 will be moved from bullets to tables with checkmarks confirming validity**
 
 # KDE config file paths
 
 #### Panel
-   * `.config/plasma-org.kde.plasma.desktop-appletsrc`
+| Component | Element | Config File | Plasma 5 | Plasma 6 |
+|-----------|---------|-----------------------------|---------|--------|
+| Appearance | Global Theme | `.config/kdeglobals` | [x] | [x] |
+
+* `.config/plasma-org.kde.plasma.desktop-appletsrc`
 
 #### Appearance
    * Global Theme
@@ -231,3 +229,12 @@ list of symbol meaning:
   * I - Minimize
   * A - Maximize
   * X - Close
+
+### Some useful stuff
+  * [hide title bar when windows are maximized](https://github.com/shalva97/kde-configuration-files/blob/b011186249deb8b3c268d5dab9cb0f84739127b8/setupKDE.fish#L4)
+  * [Delete all (i hope) config files](https://github.com/shalva97/kde-configuration-files/blob/master/scripts/delete-kde-configuration-files.fish)
+  * [kcmshell5 and plasmawindowed](https://github.com/shalva97/kde-configuration-files/blob/master/kcmshell5%20and%20plasmawindowed.md)
+  * [dbus events](https://github.com/shalva97/kde-configuration-files/blob/master/qdbus_events.md)
+  * [convert config entries to kwrite commands](https://gist.github.com/shalva97/a705590f2c0e309374cccc7f6bd667cb)
+  * [KDE configuration backup script](https://github.com/Prayag2/konsave)
+
